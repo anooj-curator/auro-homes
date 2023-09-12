@@ -27,29 +27,35 @@ export const ContactUs = () => {
             contribute to their long-term success.
           </p>
 
-          {/* <div className="contact-us__inner-content-box">
-              <h3 className="contact-us__title u-margin-bottom-small">
-                <span className="contact-us__icon-box">
-                  <svg className="arr-down">
-                    <use xlinkHref="img/sprite.svg#arrow-down-green"></use>
-                  </svg>
-                </span>
-                Visit us personally
-              </h3>
-              <p className="paragraph u-margin-bottom-small">
-                Beside Atta Quarshie Merton Memorial Hospital Ave 2nd Floor,
-                Kaneshie, Accra.
-              </p>
-
-              <div className="contact-us__img-box">
-                <img
-                  src="img/map-2x.png"
-                  alt="Our Location"
-                  className="contact-us__img"
-                  srcSet="img/map-1x.png 1x, img/map-2x.png 2x"
-                />
-              </div>
-            </div> */}
+          <div className="contact-us__inner-content-box">
+            <span className="contact-us__icon-box">
+              <img
+                src={`${process.env.PUBLIC_URL}/img/email.png`}
+                alt="email"
+              />
+            </span>
+            <h3 className="contact-us__title u-margin-bottom-small">
+              Send us an email
+            </h3>
+            <p className="paragraph u-margin-bottom-small">
+              auroonehomes@gmail.com
+            </p>
+          </div>
+          <div className="contact-us__inner-content-box">
+            <span className="contact-us__icon-box">
+              <img
+                src={`${process.env.PUBLIC_URL}/img/location.png`}
+                alt="location"
+              />
+            </span>
+            <h3 className="contact-us__title u-margin-bottom-small">
+              Come see us
+            </h3>
+            <p className="paragraph u-margin-bottom-small">
+              P No 22/1, Saraswati Nagar Colony, Lothkunta, Tirumalagiri,
+              Secunderabad, Hyderabad, 500015
+            </p>
+          </div>
         </div>
 
         <div className="contact-us__right">

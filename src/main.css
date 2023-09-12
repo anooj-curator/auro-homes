@@ -832,11 +832,9 @@ body {
   }
 }
 .contact-us__title {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
   font-size: 2rem;
   font-weight: 700;
+  text-align: center;
 }
 .contact-us__img-box {
   width: 100%;
