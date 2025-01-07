@@ -220,6 +220,8 @@ body {
   margin-bottom: 8rem !important;
 }
 .u-margin-bottom-mid {
+  /* max-width: 500px; */
+  text-align: center;
   margin-bottom: 4rem !important;
 }
 .u-margin-bottom-small {
@@ -410,6 +412,9 @@ body {
   .header__content {
     padding: 4rem 2rem;
   }
+  .contact-us__left > .paragraph {
+    width: 500px;
+  }
 }
 .header__hero-img-box {
   flex: 0 0 35%;
@@ -459,6 +464,7 @@ body {
   .footer {
     padding: 2rem;
   }
+
 }
 .footer__row-1 {
   display: flex;
@@ -678,6 +684,71 @@ body {
 }
 @media only screen and (max-width: 37.5em) {
   .what-we-offer .paragraph {
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+}
+
+
+.gallery {
+  padding: 12rem 8rem;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url("./img/services-bg-img.png");
+  background-position: center center;
+  background-size: cover;
+}
+@media only screen and (max-width: 75em) {
+  .gallery {
+    padding: 8rem 4rem;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .gallery {
+    padding: 4rem 2rem;
+  }
+}
+.gallery__content-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+.gallery__content {
+  padding: 4rem;
+  flex: 0 0 30%;
+  background-color: #f9f9fb;
+  border-radius: 8px;
+  box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.2);
+  transition: all 0.4s;
+}
+@media only screen and (max-width: 75em) {
+  .gallery__content {
+    flex: 0 0 45%;
+  }
+}
+@media only screen and (max-width: 50em) {
+  .gallery__content {
+    flex: 0 0 100%;
+  }
+}
+@media (hover: hover) {
+  .gallery__content:hover {
+    box-shadow: 0 1rem 6rem rgba(0, 0, 0, 0.2);
+    transform: scale(1.05) translateY(4px);
+  }
+}
+.gallery__title {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+@media only screen and (max-width: 37.5em) {
+  .gallery .paragraph {
     -webkit-hyphens: auto;
     hyphens: auto;
   }
@@ -1070,4 +1141,10 @@ body {
 .team-member__subtitle {
   font-size: 14px;
   color: #8ca5c6;
+}
+
+@media only screen and (min-width: 37.5em) {
+  .contact-us__left > .paragraph {
+    width: 500px;
+  }
 }

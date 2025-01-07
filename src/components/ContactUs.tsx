@@ -1,18 +1,4 @@
-import { useState } from "react";
-
-const initialFormData = {
-  name: "",
-  email: "",
-  message: "",
-};
 export const ContactUs = () => {
-  const [formData, setFormData] = useState({
-    ...initialFormData,
-  });
-
-  const updateForm = (id: string, value: string) => {
-    setFormData({ ...formData, [id]: value });
-  };
   return (
     <section className="contact-us" id="contact-us">
       <h3 className="heading-tertiary u-margin-bottom-small">Contact Us</h3>
@@ -44,21 +30,20 @@ export const ContactUs = () => {
           <div className="contact-us__inner-content-box">
             <span className="contact-us__icon-box">
               <img
-                src={`${process.env.PUBLIC_URL}/img/location.png`}
+                src={`${process.env.PUBLIC_URL}/img/phone.png`}
                 alt="location"
               />
             </span>
             <h3 className="contact-us__title u-margin-bottom-small">
-              Come see us
+              Talk to us
             </h3>
             <p className="paragraph u-margin-bottom-small">
-              P No 22/1, Saraswati Nagar Colony, Lothkunta, Tirumalagiri,
-              Secunderabad, Hyderabad, 500015
+              8885554485, 8885554585
             </p>
           </div>
         </div>
 
-        <div className="contact-us__right">
+        {/* <div className="contact-us__right">
           <form
             onSubmit={(e) => {
               e.preventDefault();
@@ -122,7 +107,7 @@ export const ContactUs = () => {
 
             <button className="btn btn--green">Send us a message</button>
           </form>
-        </div>
+        </div> */}
       </div>
     </section>
   );

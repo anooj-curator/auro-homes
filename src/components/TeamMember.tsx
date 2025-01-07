@@ -12,7 +12,7 @@ export const TeamMember = ({
       <div className="card-front">
         <div className="team-member__image">
           <figure className="img-holder">
-            <img src={currentImg} alt="current" />
+            <img loading="lazy" src={currentImg} alt="current" />
           </figure>
         </div>
         <div className="team-member__body">
@@ -23,7 +23,7 @@ export const TeamMember = ({
       <div className="card-back">
         <div className="team-member__image">
           <figure className="img-holder">
-            <img src={childhoodImg} alt="childhood" />
+            <img loading="lazy" src={childhoodImg} alt="childhood" />
           </figure>
         </div>
         <div className="team-member__body">

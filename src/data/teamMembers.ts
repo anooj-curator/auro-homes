@@ -2,7 +2,7 @@ import { ITeamMember } from "../types";
 
 export const teamMembers: ITeamMember[] = [
   {
-    name: "Sai Santosh Goud",
+    name: "Veerlapalli Sai Santosh",
     role: "Partner",
     passion: "a cricketer",
     currentImg: `${process.env.PUBLIC_URL}/img/man.jpg`,

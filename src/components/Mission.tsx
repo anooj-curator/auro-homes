@@ -6,17 +6,18 @@ export const Mission = () => (
         <div className="mission__content">
           <h4 className="mission__title u-margin-bottom-small">Vision</h4>
           <p className="paragraph">
-            Our Vision is to be one of the prestigious Building Construction
-            organizations providing lasting edifice for our clients all over
-            Africa, with world-className technology at a competitive cost.
+            To build homes that are more than just structures, but lifelong
+            spaces of comfort and belonging. We aim to deliver exceptional
+            quality that lasts a lifetime, creating homes where people feel
+            truly at home.
           </p>
         </div>
 
         <div className="mission__content">
           <h4 className="mission__title u-margin-bottom-small">Mission</h4>
           <p className="paragraph">
-            Our mission as an organization is to bridge the gap between Africa
-            and the western world in terms of quality product, service delivery.
+            Our mission is to be the pioneer in building standalone's with
+            exclusive floor.
           </p>
         </div>
       </div>
@@ -24,10 +25,10 @@ export const Mission = () => (
       <div className="mission__right">
         <div className="mission__img-box">
           <img
-            src="img/mission-img-2x.png"
+            loading="lazy"
+            src="img/1_FRONT_VIEW_2.jpeg"
             alt="Mission"
             className="mission__img"
-            srcSet="img/mission-img-1x.png 1x, img/mission-img-2x.png 2x"
           />
         </div>
       </div>

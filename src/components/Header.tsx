@@ -41,8 +41,9 @@ export const Header = () => {
       <div className="header__content u-margin-bottom-big">
         <div className="header__hero-img-box">
           <img
+            loading="lazy"
             src="img/hero-img-2x.png"
-            alt="BuildCo Hero"
+            alt="Auro Homes Hero"
             srcSet="img/hero-img-1x.png 1x, img/hero-img-2x.png 2x"
             className="header__hero-img"
           />
@@ -50,18 +51,18 @@ export const Header = () => {
 
         <div className="header__text-box">
           <h1 className="heading-primary u-margin-bottom-small">
-            <span className="heading-primary--sub">
-              {" "}
-              If you can Imagine it,{" "}
-            </span>
             <span className="heading-primary--main">
-              We can <span className="emphasis">build</span> it.
+              Quality <span className="emphasis">pays off</span> ,
+            </span>
+            <span className="heading-primary--sub">
+              Cutting corners costs more.{" "}
             </span>
           </h1>
           <p className="heading-sub u-margin-bottom-mid">
-            We are a people-orientated, progressive business, driven by our
-            values to deliver lasting change for our stakeholders and the
-            communities we work in.
+            To build homes that are more than just structures, but lifelong
+            spaces of comfort and belonging. We aim to deliver exceptional
+            quality that lasts a lifetime, creating homes where people feel
+            truly at home.
           </p>
 
           {/* <div className="header__form-group">
