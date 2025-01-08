@@ -1,16 +1,12 @@
-import React from "react";
+
 import "./App.css";
-import { Footer } from "./components/Footer";
-import { Header } from "./components/Header";
-import { Main } from "./components/Main";
-import "./main.css";
+import 'animate.css';
+import Page from "./components/Page";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Main />
-      <Footer />
+      <Page />
     </div>
   );
 }

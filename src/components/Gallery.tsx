@@ -1,49 +1,32 @@
-// import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-// import { Carousel } from "react-responsive-carousel";
+import { Carousel } from "react-responsive-carousel";
 
 const Gallery = () => {
   const images = [
-    "1_FRONT_VIEW_2.jpeg",
-    "auroHomes.png",
-    // "image3.jpg",
-    // Add more image URLs here
+    "FRONT_VIEW.jpg",
+    "SW_VIEW.jpg",
+    "TERRACE_VIEW.jpg",
+    "INTERNAL_VIEW.png"
   ];
 
   return (
-    <section className="gallery" id="gallery">
-      <div
-        className="gallery__content-box"
-        style={{
-          width: 800,
-          margin: "auto",
-          padding: "12rem 8rem",
-          backgroundColor: "#f9f9fb",
-        }}
-      >
-        {/* <Carousel
-          //   showArrows={true}
+        <Carousel
+          showArrows={true}
           autoPlay={true}
           infiniteLoop={true}
-          interval={2000}
-          // width={800}
-          //   centerMode={true}
-
-          // onChange={onChange}
-          // onClickItem={onClickItem}
-          // onClickThumb={onClickThumb}
+          interval={3000}
+          showStatus={false}
         >
           {images.map((img, index) => (
-            <div style={{ height: "auto" }}>
+            <div className="gallery-item" key={index}>
               <img
                 src={`${process.env.PUBLIC_URL}/img/${img}`}
                 alt={`img-${index}`}
+                loading="lazy"
               />
             </div>
           ))}
-        </Carousel> */}
-      </div>
-    </section>
+        </Carousel>
   );
 };
 
