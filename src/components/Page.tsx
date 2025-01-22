@@ -120,7 +120,7 @@ export default function Page() {
 
       <section id="home" className="bg-white min-h-screen pt-30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full">
-          <div className="flex flex-col md:flex-row items-center justify-between py-20">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6 py-20">
             <div className="w-full md:w-1/2 mb-10 md:mb-0">
               <h1 className="text-4xl md:text-6xl font-bold text-black mb-6 animate__animated animate__fadeInLeft">
                 Building Dreams with{" "}
